@@ -1,0 +1,67 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+section form fieldset.field_set{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+section form fieldset label{
+    font-family: Tahoma, Arial;
+    font-size: 1rem;
+}
+
+section form fieldset label.password{
+    margin-top: 5px;
+}
+
+section form fieldset input{
+    margin: 0 auto;
+    font-family: Tahoma;
+    width: 100%;
+    border-radius: 3px;
+}
+
+section form fieldset input.input{
+    height: 30px;
+    padding: 7px;
+    font-size: 0.8rem;
+    background-color: lightyellow;
+    border: 0.5px solid gray;
+}
+
+section form fieldset input.send_button{
+    width: 100%;
+    height: 45px;
+    margin-top: 8px;
+    font-family: Tahoma, Arial;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(51, 162, 255);
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+section form fieldset input.send_button:hover{
+    background-color: rgb(52, 220, 235);
+}
+
+a{
+    text-decoration: none;
+}
